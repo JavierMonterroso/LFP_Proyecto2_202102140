@@ -151,14 +151,14 @@ init : instrucciones
 
 
 instruccion : crearDB ;
------------- | eliminarDB ;
------------- | crearColeccion ;
------------- | eliminarColeccion ;
------------- | insertarUnico ;
------------- | actualizarUnico ;
------------- | eliminarUnico ;
------------- | buscarTodo ;
------------- | buscarUnico ;
+ | eliminarDB ;
+ | crearColeccion ;
+ | eliminarColeccion ;
+ | insertarUnico ;
+ | actualizarUnico ;
+ | eliminarUnico ;
+ | buscarTodo ;
+ | buscarUnico ;
 
 crearDB : CrearDB ID = nueva CrearDB ( )
 
